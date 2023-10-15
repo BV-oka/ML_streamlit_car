@@ -1,2 +1,2 @@
 # ML_streamlit_car
-учусь анализ данных со streamlit
+учусь анализировать данные со streamlit
