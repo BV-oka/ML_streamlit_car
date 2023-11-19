@@ -26,9 +26,9 @@ st.divider()
 st.divider()
 
 
-status = st.radio("Select Gender: ", ('Male', 'Female'))
+status = st.radio("выберите вариант: ", ('да', 'нет'))
 
-if (status == 'Male'):
-    st.success("Male")
+if (status == 'да'):
+    st.success("да")
 else:
-    st.success("Female")
+    st.success("нет")
