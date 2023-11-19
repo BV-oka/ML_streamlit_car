@@ -26,7 +26,7 @@ st.divider()
 st.divider()
 
 
-status = st.radio("выберите вариант: ", ('да', 'нет'), label_visibility="hidden")
+status = st.radio("выберите вариант: ", ('да', 'нет'))
 
 if (status == 'да'):
     st.success("да")
