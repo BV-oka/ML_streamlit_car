@@ -37,6 +37,14 @@ st.error("Error")
 
 
 # переключатели
+status = st.radio("выберите вариант: ", ('да', 'нет'))
+
+if (status == 'да'):
+    st.success("да")
+else:
+    st.success("нет")
+    st.snow()
+
 status = st.radio("выберите вариант: ", ('да', 'нет'), horizontal=True)
 
 if (status == 'да'):
@@ -44,6 +52,7 @@ if (status == 'да'):
 else:
     st.success("нет")
     st.snow()
+
 
 
 genre = st.radio(
