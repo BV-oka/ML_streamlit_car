@@ -30,8 +30,8 @@ st.success("Success")
 st.info("Information")
 st.warning("Warning")
 st.error("Error")
-st.snow()
-st.balloons()
+# st.snow()
+# st.balloons()
 
 
 
