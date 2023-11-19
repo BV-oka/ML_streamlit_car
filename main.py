@@ -22,8 +22,19 @@ st.subheader("Это подзаголовок")
 # Текст
 st.text("Просто текст")
 
+# полоски
 st.divider()
 st.divider()
+
+st.success("Success")
+st.info("Information")
+st.warning("Warning")
+st.error("Error")
+
+
+
+
+
 
 # переключатели
 status = st.radio("выберите вариант: ", ('да', 'нет'))
