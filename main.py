@@ -37,7 +37,7 @@ st.error("Error")
 
 
 # переключатели
-status = st.radio("выберите вариант: ", ('да', 'нет'))
+status = st.radio("выберите вариант: ", ('да', 'нет'), horizontal=True)
 
 if (status == 'да'):
     st.success("да")
