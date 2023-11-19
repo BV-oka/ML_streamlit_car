@@ -43,3 +43,10 @@ if genre == ':rainbow[Comedy]':
     st.write('You selected comedy.')
 else:
     st.write("You didn\'t select comedy.")
+
+
+option = st.selectbox(
+    'How would you like to be contacted?',
+    ('Email', 'Home phone', 'Mobile phone'))
+
+st.write('You selected:', option)
