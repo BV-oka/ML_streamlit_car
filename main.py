@@ -24,3 +24,11 @@ st.text("Просто текст")
 
 st.divider()
 st.divider()
+
+
+status = st.radio("Select Gender: ", ('Male', 'Female'))
+
+if (status == 'Male'):
+    st.success("Male")
+else:
+    st.success("Female")
