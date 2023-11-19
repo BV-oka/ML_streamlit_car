@@ -23,3 +23,4 @@ st.subheader("Это подзаголовок")
 st.text("Просто текст")
 
 st.divider()
+st.divider()
