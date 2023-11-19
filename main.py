@@ -43,7 +43,8 @@ if (status == 'да'):
     st.success("да")
 else:
     st.success("нет")
-    st.snow()
+    
+  
 
 status = st.radio("выберите вариант: ", ('да', 'нет'), horizontal=True)
 
