@@ -2,6 +2,8 @@
 import streamlit as st
 # импортируем библиотеку pandas
 import pandas as pd
+import numpy as np
+
 
 if st.button('Нажми на меня'):
   st.write('Привет, мир!')
@@ -50,6 +52,27 @@ st.write(pd.DataFrame({
     'second column': [10, 20, 30, 40]
 }))
 
+# таблички
+
+# интерактивная табличка
+
+dataframe = np.random.randn(10, 20)
+st.dataframe(dataframe)
+
+# интерактивная с выделенным элементом
+
+dataframe = pd.DataFrame(
+    np.random.randn(10, 20),
+    columns=('col %d' % i for i in range(20)))
+
+st.dataframe(dataframe.style.highlight_max(axis=0))
+
+# статическая табличка
+
+dataframe = pd.DataFrame(
+    np.random.randn(10, 20),
+    columns=('col %d' % i for i in range(20)))
+st.table(dataframe)
 
 
 # переключатели
