@@ -42,6 +42,8 @@ df = pd.DataFrame({
 
 df
 
+st.divider()
+
 st.write("Here's our first attempt at using data to create a table:")
 st.write(pd.DataFrame({
     'first column': [1, 2, 3, 4],
